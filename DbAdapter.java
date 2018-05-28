@@ -72,8 +72,6 @@ public class DbAdapter {
         }
     }
 
-    //github test 2018 05 28
-
     public boolean getSwtichValue(final String topic) {
         Connection con = null;
         PreparedStatement pstmt = null;

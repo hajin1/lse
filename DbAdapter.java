@@ -109,7 +109,7 @@ public class DbAdapter {
         }
     }
 
-    public void setSwicthValue(final String topic, String switchValue) {
+    public void setSwicthValue(String topic, String switchValue) {
         Connection con = null;
         PreparedStatement pstmt = null;
         String sql = null;
